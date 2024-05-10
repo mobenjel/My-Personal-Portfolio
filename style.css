@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins: wght@300;400; 500; 600;700; 800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+.logo span{
+   color:#7d2ae8;
+}
+.navigation{
+   margin-left: -300рх;
+}
+
+
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: color 0.35s; /* Specify the property to transition (e.g., color) and duration */
+}
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-talk:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('PROFIL.jpg');
+    background-size: contain;
+    background-position: right center; 
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.content{
+   max-width:500рх;
+}
+.content h2 {
+    font-size: 3em;
+    color:#555;
+}
+
+.content h2 span {
+    color: #7d2ae8;
+}
+.content h4 {
+    font-size: 2em;
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+}
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s ;
+}
+.btn-group a:nth-child(1):hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+
+.btn-group a:nth-child(2) {
+    color: #7d2ae8;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2) {
+    color: #ffffff;
+    background: #7d2ae8;
+}
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #7d2ae8;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #ffffff;
+    outline: 2px solid #7d2ae8;
+    transition: .3s;
+
+}
+.social-icons a:hover {
+    transform: translatey(-5px);
+}
+
+.social-icons a i{
+    color: #ffffff;
+}
+.navigation a.active {
+    color: #7d2ae8; /* Adjust the color as per your theme */
+    text-decoration: underline;
+}
+/* About Page Styles */
+.about {
+    padding: 50px;
+    background-color: #ffffff;
+    line-height: 1.6;
+    color: #333;
+}
+
+.about img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    color: #7d2ae8;
+    margin-bottom: 20px;
+}
+
+.about p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Clearfix for image float */
+.about:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+header {
+    background:white;
+    color:#fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ca04b7;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+}
+
+.project {
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+footer p {
+    color: grey; /* Change the color to purple */
+}
+
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+form input, form textarea {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+button {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    background: #9900ff;
+    color: white;
+    border: none;
+}
+header h1 {
+    color: purple; 
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: color 0.35s; /* Specify the property to transition (e.g. color) and duration */
+ }
+ 
+ .navigation a.active {
+    color: #7d2ae8; /* Adjust the color as per your theme */
+    text-decoration: underline;
+ }
+ 
